@@ -78,6 +78,7 @@ a{
 }
 
 #more-items{
+    cursor: pointer;
     position: relative;
     display: none;
     color: #460e75;
