@@ -46,6 +46,7 @@ a{
 }
 
 #dropdown{
+    cursor: pointer;
     position: relative;
     display: block;
     color: #460e75;

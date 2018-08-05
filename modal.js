@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 $(document).ready(function(){
     $('.flex-container').hide();
     $('#main-button').click(function(e){
