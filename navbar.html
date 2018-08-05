@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="navbar.css" />
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="navbar.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="flex-container">
+        <div class = "icons">
+            <a href="#" id="logo">Logo</a>
+            <a href="#" class="items">Home</a>
+            <a href="#" class="items">Link</a>
+            <div href="#" id ="dropdown" class="items">Dropdown<i class="fas fa-chevron-circle-down"></i>
+                <div id="dropdown-content">
+                    <a class ="dropdown-item" href="#">Link 1</a>
+                    <a class ="dropdown-item" href="#">Link 2</a>
+                    <a class ="dropdown-item" href="#">Link 3</a>
+                </div>
+            </div>    
+            <a href="#" class="items">Extra</a>
+            <a href="#" class="form-items"><input id = "text-box" type="text" name="Search">&nbsp;&nbsp;<input id = "button" stype="submit" value="submit">&nbsp;&nbsp;</a>
+            <div id="more-items"><i class="fas fa-ellipsis-v"></i>
+                <div id="second-dropdown">
+                    <a class ="dropdown-item" href="#">Home</a>
+                    <a class ="dropdown-item" href="#">Link</a>
+                    <a class ="dropdown-item" href="#">Extra</a>
+                </div>
+            </div>
+
+         
+
+        </div>
+    </div>
+    
+</body>
+</html>
