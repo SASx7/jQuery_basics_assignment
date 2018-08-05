@@ -1,0 +1,116 @@
+.flex-container{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    border: 2px solid black;
+    z-index:1;
+    width: 50vw;
+    height: 20vw;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+}
+
+ #text-title{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:1em;
+    padding-bottom: 2vh;
+    padding-top:2vh;
+    padding-left:2vw;
+    
+}
+
+#text-body{
+    position: relative;
+    padding: 1vh 2vw; 
+}
+
+#buttons{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 1vw;
+    height: 4vh;
+}
+
+button{
+    border-radius: 10px;
+    text-align: center;
+    
+    font-size: 0.7em;
+    border:none;
+}
+
+#close{
+    background-color:orangered;
+    color: black;
+}
+
+#save{
+    background-color: aqua;
+    color: black;
+    
+}
+
+hr{
+    width: 100%;
+    background-color: black; 
+}
+
+.fas{
+    padding-right: 1vw;
+}
+
+#main-button{
+    background-color: bisque;
+    color: #460e75;
+    font-size: 20px;
+    max-width: 25vw;
+    position: absolute;
+    top:300px;
+    left:0px;
+    right:0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+
+#x-button{
+    background-color: bisque;
+    
+}
+
+
+@media screen and (max-width:800px){
+    .flex-container{
+        width : 60vw;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .flex-container{
+        width: 80vw;
+        height: 30vh;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    .flex-container{
+        width: 90vw;
+        height: 30vh;
+    }
+}
